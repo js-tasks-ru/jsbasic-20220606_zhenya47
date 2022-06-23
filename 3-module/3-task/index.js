@@ -6,5 +6,3 @@ function camelize(str) {
     )
     .join('');
 }
-
-
