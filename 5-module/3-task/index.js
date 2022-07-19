@@ -2,7 +2,7 @@ function initCarousel() {
   let arrowRight = document.querySelector(".carousel__arrow_right");
   let arrowLeft = document.querySelector(".carousel__arrow_left");
   let carouselInnerWidth = document.querySelector(".carousel__inner").offsetWidth;
-  let countSlide = 4;
+  let countSlide = document.querySelectorAll('.carousel__slide').length;
   let activeIndex = 0;
 
   setArrow(activeIndex, arrowRight, arrowLeft, countSlide);
